@@ -8,7 +8,7 @@
 							<img src='../foto_banner/foto.jpg' class='img-circle' alt='Yanti' />
                         </div>
                         <div class='pull-left info'>
-                            <p>Hello, Yanti</p>
+                            <p>Hello, Roy Fernando</p>
 
                             <a href='#'><i class='fa fa-circle text-success'></i> Online</a>
                         </div>
@@ -97,7 +97,7 @@
 				</li><li>
 					<a href='?module=JS Arrays'><i class='fa fa-angle-double-right'></i>JS Arrays[ GALIH ADI PRATAMA]</a>
 				</li><li>
-					<a href='?module=JS Array Methods'><i class='fa fa-angle-double-right'>	   </i>JS Array Methods[ 		]</a>
+					<a href="{{ route('jsroy') }}"><i class='fa fa-angle-double-right'>	   </i>JS Roy Fernando[ ROY FERNANDO]</a>
 				</li><li>
 					<a href='?module=JS Array Sort'><i class='fa fa-angle-double-right'>		  </i>JS Array Sort[	]</a>
 				</li><li>
