@@ -95,15 +95,21 @@ title="Close Menu" style="font-weight:bold;padding-top:10px;padding-bottom:11px;
 <body>
 <img src="http://127.0.0.1:8000/asset/img/logo.png" height='37'>
 
-<h2>JavaScript Variables</h2>
+<h2>Redeclaring a Variable Using var</h2>
 <p>contoh pengunana variabel x, y, and z .</p>
 <p id="demo"></p>
 <script>
-let x = 5;
-let y = 6;
-let z = x + y;
-document.getElementById("demo").innerHTML ="The value of z is: " + z;
-</script>
+  var  x = 10;
+  // Here x is 10
+  
+  {  
+  var x = 2;
+  // Here x is 2
+  }
+  
+  // Here x is 2
+  document.getElementById("demo").innerHTML = x;
+  </script>
 
 </body>
 </html>
