@@ -97,10 +97,15 @@ Contoh   ::</p>
 &lt;p id="demo"&gt;&lt;/p&gt;<br>
 
 &lt;script&gt;<br>
-let x = 5;<br>
-let y = 6;<br>
-let z = x + y;<br>
-document.getElementById("demo").innerHTML ="The value of z is: " + z;<br>
+var x = 10;
+// Here x is 10
+
+{
+var x = 2;
+// Here x is 2
+}
+
+// Here x is 2
 &lt;/script&gt;<br>
 
 &lt;/body&gt;<br>
