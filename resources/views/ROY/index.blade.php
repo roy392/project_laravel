@@ -52,7 +52,7 @@ h4 {
 <aside class='right-side'>
 <!-- Content Header (Page header) -->
 <section class='content-header'>
-<h1>Tutorial HTML</h1>
+<h1>JavaScript Let</h1>
 </section>
 
 		<!-- Main content -->
@@ -71,12 +71,10 @@ JS adalah bahasa pemrograman yang sering di gunakan di aplikasi berbasi webde ++
 Contoh   ::</p>
 <h4>Belajar Mudah denganjavascrpit "Coba Sendiri"</h4>
 
-<p>4 Ways to Declare a JavaScript Variable:</p>
-
- <li> penggunaan  variabel var   </li>
- <li> penggunaan  variabel let</li>
- <li> penggunaan  variabel const</li>
- <li> penggunaan  variabel nothing</li>
+<p>The let keyword was introduced in ES6 (2015).</p>
+<li>Variables defined with let cannot be Redeclared.</li>
+<li>variables defined with let must be Declared before use.</li>
+<li>Variables defined with let have Block Scope.</li>
 
 
 <p>Dengan editor "Coba Sendiri" kami, Anda dapat mengedit kode javascript dan melihat hasilnya: </p>
